@@ -26,17 +26,17 @@ const PokemonSearch = ({ onPokemonFound }) => {
 	};
 
 	return (
-		<div className='pokemon-search'>
+		<div className="pokemon-search">
 			<form onSubmit={handleSearch}>
 				<input
 					type="text"
 					value={pokemonSearch}
 					onChange={(e) => setPokemonSearch(e.target.value)}
-					placeholder="Search by name or ID..."
+					placeholder="Search by name..."
 				/>
-				<button type="submit" >Search</button>
+				<button type="submit">Search</button>
 			</form>
-			{error && <p className='error'>{error}</p>}
+			{error && <p className="error">{error}</p>}
 		</div>
 	);
 };
