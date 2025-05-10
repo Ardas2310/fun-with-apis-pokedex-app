@@ -41,7 +41,8 @@
 }
 
 .error {
-	color: var(--pokedex-red);
+	color: black;
+	font-weight: bold;
 	margin-top: 10px;
 	text-align: center;
 }
