@@ -14,7 +14,7 @@ function App() {
 	return (
 		<div className="app">
 			<header className="app-header">
-				<h1>Pokédex</h1>
+				<h1>Pokidex</h1>
 				<PokemonSearch onPokemonFound={handlePokemonFound} />
 			</header>
 
